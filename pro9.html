@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+    background: rgb(217, 215, 215);
+}
+h3{
+    text-align: center;
+}
+.a{
+    display: flex;
+    align-items: center;
+}
+.box_a {
+    transition: box-shadow .3s;
+    width: 300px;
+    height: 50px;
+    margin: 50px;
+    border-radius:0px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding-left: 2%;
+    margin-left: 10%;
+    margin-top: 1%;
+    
+}
+.box_a:hover {
+    box-shadow: 0px 1px 8px rgba(24, 112, 235, 0.913); 
+}
+.box_b {
+    transition: box-shadow .3s;
+    width: 300px;
+    height: 50px;
+    margin: 50px;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding-left: 2%;
+    margin-top: 1%;
+}
+.box_b:hover {
+    box-shadow: 0px 1px 8px rgba(24, 112, 235, 0.913); 
+}
+.box_c {
+    transition: box-shadow .3s;
+    width: 300px;
+    height: 50px;
+    margin: 50px;
+    border-radius:28px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding-left: 2%;
+    margin-top: 1%;
+   
+}
+.box_c:hover{
+    box-shadow: 0px 1px 8px rgba(24, 112, 235, 0.913); 
+}
+.b{
+    display: flex;
+}
+.box_d {
+    transition: box-shadow .3s;
+    width: 300px;
+    height: 50px;
+    margin: 50px;
+    border-radius:0px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding-left: 2%;
+    margin-left: 10%;
+    margin-top: 10px;
+    
+}
+.box_d:hover {
+    box-shadow: 15px 20px 20px 15px lightblue inset; 
+}
+.box_e {
+    transition: box-shadow .3s;
+    width: 300px;
+    height: 50px;
+    margin: 50px;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding-left: 2%;
+    margin-top: 10px;
+}
+.box_e:hover {
+    box-shadow: 15px 20px 20px 15px lightblue inset;
+}
+.box_f {
+    transition: box-shadow .3s;
+    width: 300px;
+    height: 50px;
+    margin: 50px;
+    border-radius:28px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding-left: 2%;
+    margin-top: 10px;
+   
+}
+.box_f:hover{
+    box-shadow: 15px 20px 20px 15px lightblue inset; 
+}
+.c{
+    display: flex;
+}
+.box_g {
+    transition: box-shadow .3s;
+    width: 300px;
+    height: 50px;
+    margin: 50px;
+    border-radius:0px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding-left: 2%;
+    margin-left: 10%;
+    margin-top: 10px;
+    
+}
+.box_g:hover {
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+.box_h {
+    transition: box-shadow .3s;
+    width: 300px;
+    height: 50px;
+    margin: 50px;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding-left: 2%;
+    margin-top: 10px;
+}
+.box_h:hover {
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+.box_i {
+    transition: box-shadow .3s;
+    width: 300px;
+    height: 50px;
+    margin: 50px;
+    border-radius:28px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding-left: 2%;
+    margin-top: 10px;
+   
+}
+.box_i:hover{
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+.flex-container{
+    display: flex;
+    margin-left: 14%;
+    padding-top: -7px;
+}
+.flex-container > div{
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+.flex-container > div:hover{
+    border-bottom: 6px dotted rgb(83, 32, 56);
+}
+.container{
+    display: flex;
+    margin-left: 3.5%;
+}
+.container>div{
+  width: 300px;
+  height: 35px;
+  margin: 10px;
+  border: 1px solid black;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {border: 15px solid greenyellow;}
+}
+</style>
+<body>
+    <h3>Basic input box with outer shadow</h3>
+        <div class="a">
+        <div class="box_a">DD- Design Drastic            
+        </div>
+        <div class="box_b">DD- Design Drastic            
+        </div>
+        <div class="box_c">DD- Design Drastic            
+        </div>
+        </div>
+        <h3 style="margin-top: -10px">Basic input box with inner shadow</h3>
+        <div class="b">
+            <div class="box_d">DD- Design Drastic            
+            </div>
+            <div class="box_e">DD- Design Drastic            
+            </div>
+            <div class="box_f">DD- Design Drastic            
+            </div>
+            </div>
+            <h3>Basic input box with outer shadow</h3>
+        <div class="c">
+        <div class="box_g">DD- Design Drastic            
+        </div>
+        <div class="box_h">DD- Design Drastic            
+        </div>
+        <div class="box_i">DD- Design Drastic            
+        </div>
+        </div>
+        <h3 style="margin-top: -1%">Border bottom effects</h3>
+        <div class="flex-container">
+            <div class="box_j">DD- Design Drastic            
+            </div>
+            <div class="box_k">DD- Design Drastic            
+            </div>
+            <div class="box_l">DD- Design Drastic            
+            </div>
+            <div class="box_l">DD- Design Drastic            
+            </div>
+        </div>
+        <h3>Basic input box with outer shadow</h3>
+        <div class="container">
+            <div class="box_j">DD- Design Drastic            
+            </div>
+            <div class="box_k">DD- Design Drastic            
+            </div>
+            <div class="box_l">DD- Design Drastic            
+            </div>
+            <div class="box_l">DD- Design Drastic            
+            </div>
+        </div>
+    
+</body>
+</html>
