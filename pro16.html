@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto;
+    background-color: white;
+    height: 500px;
+    grid-template-rows: 100px;
+    padding-left: 14%;
+}
+.super{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 250px;
+    width: 200px;
+    margin-top: 10%;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 1; 
+}
+.super:hover{
+    box-shadow:2px 4px 2px 2px rgb(217, 213, 213);
+}
+.woman1{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 250px;
+    width: 200px;
+    margin-top: 10%;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-column-end: 2;
+}
+.woman1:hover{
+    box-shadow:2px 4px 2px 2px rgb(217, 213, 213);
+}
+.score{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-column-end: 5;
+}
+.villain:hover{
+    box-shadow:2px 4px 2px 2px rgb(217, 213, 213);
+}
+.villain{
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 250px;
+        width: 200px;
+        margin-top: 10%;
+}
+.gem:hover{
+    box-shadow:2px 4px 2px 2px rgb(217, 213, 213);
+}
+.gem{
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 250px;
+        width: 200px;
+        margin-top: 10%;
+}</style>
+<body>
+    <div class="grid">
+        <div class="super"><img src="./super-1.png" style="padding-left: 30px"><br>
+        <h3 style="padding-left: 27%">SpiderMan</h3><br>
+    <h1 align="center" style="margin-top: -20px; font: size 38px">12</h1></div>
+        <div class="woman1"><img src="./woman1.png" style="padding-left: 20%">
+            <h3 style="padding-left: 35%">Wonder<br>Woman</h3>
+            <h1 align="center" style="margin-top: -20px; font: size 38px">30</h1></div>
+        <div class="score" style="margin-top: -8%; font-size: 30px; padding-left:30px"><h2>5-0</h2></div>
+        <div class="villain"><img src="./villain.png" style="padding-left: 30px">
+            <h3 style="padding-left: 33%">Captain<br>America</h3>
+            <h1 align="center" style="margin-top: -20px; font: size 38px">50</h1></div>
+            <div class="gem"><img src="./woman2.png" style="padding-left: 30px; padding-top:5px">
+                <h3 style="padding-left: 22%">Gem Woman</h3>
+                    <h1 align="center" style="margin-top: -7px; font: size 38px">12</h1></div>
+    </div>
+</body>
+</html>
